@@ -1,6 +1,6 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as Asynchooks from '../lib/asynchooks-stack';
+import * as Asynchooks from '../stack/asynchooks-stack';
 
 test('Empty Stack', () => {
     const app = new cdk.App();
